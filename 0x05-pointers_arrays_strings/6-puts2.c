@@ -16,14 +16,8 @@ void puts2(char *str)
 
 	while (j < i)
 	{
-
 		_putchar(str[j]);
 		j = j + 2;
 	}
-	 _putchar('\n');
-
-	str = "Holberton!\0Holberton";
-	puts2(str);
-	return (0);
-	
+	_putchar('\n');
 }
