@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * puts2 - prints one char out of 2
  * @str: type
@@ -22,5 +21,9 @@ void puts2(char *str)
 		j = j + 2;
 	}
 	 _putchar('\n');
+
+	str = "Holberton!\0Holberton";
+	puts2(str);
+	return (0);
 	
 }
